@@ -1,6 +1,5 @@
 # Agentic AI Unit-Test Generation Pipeline (CSE731 Mid-term Project)
 
-CSE731 Software Testing, Term I 2026-27, IIIT Bangalore.
 **Team:** Undi Trivedh Venkata Sai (IMT2023002), Katakam Shashidhar Sai (IMT2023567)
 
 Testing goal: **Option 1 - achieve a user-specified coverage criterion** (statement or branch/decision coverage).
