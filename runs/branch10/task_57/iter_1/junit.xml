@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="7" time="0.117" timestamp="2026-09-29T14:54:44.460310" hostname="Rickputer"><testcase classname="test_solution" name="test_find_Max_Num_basic_example" time="0.003"><failure message="assert 3221 == 321&#10; +  where 3221 = find_Max_Num([1, 2, 3, 2])">def test_find_Max_Num_basic_example():
+&gt;       assert find_Max_Num([1, 2, 3, 2]) == 321
+E       assert 3221 == 321
+E        +  where 3221 = find_Max_Num([1, 2, 3, 2])
+
+test_solution.py:4: AssertionError</failure></testcase><testcase classname="test_solution" name="test_find_Max_Num_single_digit" time="0.001" /><testcase classname="test_solution" name="test_find_Max_Num_with_zeros" time="0.001" /><testcase classname="test_solution" name="test_find_Max_Num_all_zeros" time="0.001" /><testcase classname="test_solution" name="test_find_Max_Num_descending_input" time="0.001" /><testcase classname="test_solution" name="test_find_Max_Num_ascending_input" time="0.001" /><testcase classname="test_solution" name="test_find_Max_Num_repeated_digits" time="0.001" /></testsuite></testsuites>

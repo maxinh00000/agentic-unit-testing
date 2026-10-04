@@ -1,0 +1,36 @@
+{
+  "task_id": 57,
+  "function": "find_Max_Num",
+  "prompt": "Write a python function to find the largest number that can be formed with the given list of digits.",
+  "code_attempts": 1,
+  "code_structural_problem": null,
+  "reference_passed": 3,
+  "reference_total": 3,
+  "code_correct": true,
+  "iterations_run": 1,
+  "final_iteration": 1,
+  "tests_total": 8,
+  "tests_passed": 8,
+  "tests_failed": 0,
+  "tests_errors": 0,
+  "statement_pct": 100.0,
+  "branch_pct": 100.0,
+  "statements": 4,
+  "branches": 0,
+  "criterion_pct": 100.0,
+  "target_met": true,
+  "verdict": "PASS",
+  "verdict_reason": "all 8 tests passed, branch coverage 100% (target 100%)",
+  "triage": [],
+  "coverage_by_iteration": [
+    100.0
+  ],
+  "verdict_by_iteration": [
+    "PASS"
+  ],
+  "unusable_test_replies": 0,
+  "oracle_valid": 8,
+  "oracle_total": 8,
+  "real_bug_found": false,
+  "seconds": 20.5
+}

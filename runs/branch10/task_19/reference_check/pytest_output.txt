@@ -1,0 +1,14 @@
+E...                                                                     [100%]
+=================================== ERRORS ====================================
+______________________ ERROR at setup of test_duplicate _______________________
+file E:\Acads\Sem 7\ST\MidProject\runs\branch10\task_19\reference_check\solution.py, line 1
+  def test_duplicate(arr):
+E       fixture 'arr' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, capfd, capfdbinary, caplog, capsys, capsysbinary, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+E:\Acads\Sem 7\ST\MidProject\runs\branch10\task_19\reference_check\solution.py:1
+- generated xml file: E:\Acads\Sem 7\ST\MidProject\runs\branch10\task_19\reference_check\junit.xml -
+=========================== short test summary info ===========================
+ERROR test_solution.py::test_duplicate
+3 passed, 1 error in 0.08s

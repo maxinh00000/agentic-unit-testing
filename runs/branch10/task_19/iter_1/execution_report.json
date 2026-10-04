@@ -1,0 +1,74 @@
+{
+  "exit_code": 1,
+  "timed_out": false,
+  "tests": [
+    {
+      "name": "test_duplicate",
+      "status": "error",
+      "message": "failed on setup with \"file E:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10\\task_19\\iter_1\\solution.py, line 1\n  def test_duplicate(arr):\nE       fixture 'arr' not found\n>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, capfd, capfdbinary, caplog, capsys, capsysbinary, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nE:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10\\task_19\\iter_1\\solution.py:1\"\nfile E:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10\\task_19\\iter_1\\solution.py, line 1\n  def test_duplicate(arr):\nE       fixture 'arr' not found\n>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, capfd, capfdbinary, caplog, capsys, capsysbinary, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nE:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10\\task_19\\iter_1\\solution.py:1"
+    },
+    {
+      "name": "test_duplicate_empty_array",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_duplicate_no_duplicates",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_duplicate_with_duplicates",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_duplicate_single_element",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_duplicate_all_same_elements",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_duplicate_negative_numbers",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_duplicate_mixed_signs_no_dup",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_duplicate_mixed_signs_with_dup",
+      "status": "passed",
+      "message": ""
+    }
+  ],
+  "total": 9,
+  "passed": 8,
+  "failed": 0,
+  "errors": 1,
+  "output_tail": "E........                                                                [100%]\n=================================== ERRORS ====================================\n______________________ ERROR at setup of test_duplicate _______________________\nfile E:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10\\task_19\\iter_1\\solution.py, line 1\n  def test_duplicate(arr):\nE       fixture 'arr' not found\n>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, capfd, capfdbinary, caplog, capsys, capsysbinary, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nE:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10\\task_19\\iter_1\\solution.py:1\n- generated xml file: E:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10\\task_19\\iter_1\\junit.xml -\n\n---------- coverage: platform win32, python 3.12.7-final-0 -----------\nName          Stmts   Miss Branch BrPart  Cover   Missing\n---------------------------------------------------------\nsolution.py       7      0      4      0   100%\n---------------------------------------------------------\nTOTAL             7      0      4      0   100%\nCoverage JSON written to file coverage.json\n\n=========================== short test summary info ===========================\nERROR test_solution.py::test_duplicate\n8 passed, 1 error in 0.14s\n",
+  "coverage": {
+    "statements": 7,
+    "covered_statements": 7,
+    "statement_pct": 100.0,
+    "branches": 4,
+    "covered_branches": 4,
+    "branch_pct": 100.0,
+    "missing_lines": [],
+    "missing_branches": []
+  },
+  "criterion": "branch",
+  "criterion_pct": 100.0,
+  "target_pct": 100.0,
+  "target_met": true,
+  "triage": [],
+  "verdict": "ERROR",
+  "verdict_reason": "tests could not be collected or raised errors",
+  "feedback": "- Result: 8 passed, 0 failed, 1 errors (9 tests). Verdict: ERROR.\n- Statement coverage 100%, branch coverage 100% (target 100% branch).\n- The test file could not run. pytest output:\n                                 [100%]\n=================================== ERRORS ====================================\n______________________ ERROR at setup of test_duplicate _______________________\nfile E:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10\\task_19\\iter_1\\solution.py, line 1\n  def test_duplicate(arr):\nE       fixture 'arr' not found\n>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, capfd, capfdbinary, caplog, capsys, capsysbinary, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nE:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10\\task_19\\iter_1\\solution.py:1\n- generated xml file: E:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10\\task_19\\iter_1\\junit.xml -\n\n---------- coverage: platform win32, python 3.12.7-final-0 -----------\nName          Stmts   Miss Branch BrPart  Cover   Missing\n---------------------------------------------------------\nsolution.py       7      0      4      0   100%\n---------------------------------------------------------\nTOTAL             7      0      4      0   100%\nCoverage JSON written to file coverage.json\n\n=========================== short test summary info ===========================\nERROR test_solution.py::test_duplicate\n8 passed, 1 error in 0.14s\n\nKeep the passing tests, fix wrong expectations, and add tests that execute the uncovered lines and decision outcomes."
+}

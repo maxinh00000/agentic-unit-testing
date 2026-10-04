@@ -1,0 +1,46 @@
+{
+  "task_id": 56,
+  "function": "check",
+  "prompt": "Write a python function to check if a given number is one less than twice its reverse.",
+  "code_attempts": 1,
+  "code_structural_problem": null,
+  "reference_passed": 3,
+  "reference_total": 3,
+  "code_correct": true,
+  "iterations_run": 3,
+  "final_iteration": 3,
+  "tests_total": 12,
+  "tests_passed": 11,
+  "tests_failed": 1,
+  "tests_errors": 0,
+  "statement_pct": 100.0,
+  "branch_pct": 100.0,
+  "statements": 3,
+  "branches": 0,
+  "criterion_pct": 100.0,
+  "target_met": true,
+  "verdict": "TEST_BUG",
+  "verdict_reason": "1 failing test(s) have wrong expectations, branch coverage 100% (target 100%)",
+  "triage": [
+    {
+      "test": "test_check_another_true_case",
+      "fault": "test",
+      "reason": "The specification's example and logic show that 73 satisfies the condition (reverse 37, 2*37-1=73), so the function correctly returns True, but the test expects False.",
+      "message": "assert True == False\n +  where True = check(73)\ndef test_check_another_true_case():\n>       assert check(73) == False\nE       assert True == False\nE        +  where True = check(73)\n\ntest_solution.py:31: AssertionError"
+    }
+  ],
+  "coverage_by_iteration": [
+    100.0,
+    0.0,
+    100.0
+  ],
+  "verdict_by_iteration": [
+    "TEST_BUG",
+    "ERROR",
+    "TEST_BUG"
+  ],
+  "oracle_valid": 11,
+  "oracle_total": 12,
+  "real_bug_found": false,
+  "seconds": 59.8
+}

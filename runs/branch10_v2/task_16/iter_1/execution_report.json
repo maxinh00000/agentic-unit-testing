@@ -1,0 +1,86 @@
+{
+  "exit_code": 1,
+  "timed_out": false,
+  "tests": [
+    {
+      "name": "test_lowercase_underscore_basic_true",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_lowercase_underscore_multiple_underscores",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_lowercase_underscore_single_letter_sides",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_lowercase_underscore_no_underscore",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_lowercase_underscore_underscore_at_start",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_lowercase_underscore_underscore_at_end",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_lowercase_underscore_uppercase_letter",
+      "status": "failed",
+      "message": "AssertionError: assert True == False\n +  where True = text_lowercase_underscore('Abc_def')\ndef test_lowercase_underscore_uppercase_letter():\n>       assert text_lowercase_underscore(\"Abc_def\") == False\nE       AssertionError: assert True == False\nE        +  where True = text_lowercase_underscore('Abc_def')\n\ntest_solution.py:22: AssertionError"
+    },
+    {
+      "name": "test_lowercase_underscore_numbers_present",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_lowercase_underscore_empty_string",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_lowercase_underscore_only_underscore",
+      "status": "passed",
+      "message": ""
+    }
+  ],
+  "total": 10,
+  "passed": 9,
+  "failed": 1,
+  "errors": 0,
+  "output_tail": "......F...                                                               [100%]\n================================== FAILURES ===================================\n_________________ test_lowercase_underscore_uppercase_letter __________________\n\n    def test_lowercase_underscore_uppercase_letter():\n>       assert text_lowercase_underscore(\"Abc_def\") == False\nE       AssertionError: assert True == False\nE        +  where True = text_lowercase_underscore('Abc_def')\n\ntest_solution.py:22: AssertionError\n- generated xml file: E:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10_v2\\task_16\\iter_1\\junit.xml -\n\n---------- coverage: platform win32, python 3.12.7-final-0 -----------\nName          Stmts   Miss Branch BrPart  Cover   Missing\n---------------------------------------------------------\nsolution.py       6      0      2      0   100%\n---------------------------------------------------------\nTOTAL             6      0      2      0   100%\nCoverage JSON written to file coverage.json\n\n=========================== short test summary info ===========================\nFAILED test_solution.py::test_lowercase_underscore_uppercase_letter - Asserti...\n1 failed, 9 passed in 0.15s\n",
+  "coverage": {
+    "statements": 6,
+    "covered_statements": 6,
+    "statement_pct": 100.0,
+    "branches": 2,
+    "covered_branches": 2,
+    "branch_pct": 100.0,
+    "missing_lines": [],
+    "missing_branches": []
+  },
+  "criterion": "branch",
+  "criterion_pct": 100.0,
+  "target_pct": 100.0,
+  "target_met": true,
+  "triage": [
+    {
+      "test": "test_lowercase_underscore_uppercase_letter",
+      "fault": "code",
+      "reason": "The function returns True for 'Abc_def' but the specification requires only lowercase letters, so uppercase should make it return False.",
+      "message": "AssertionError: assert True == False\n +  where True = text_lowercase_underscore('Abc_def')\ndef test_lowercase_underscore_uppercase_letter():\n>       assert text_lowercase_underscore(\"Abc_def\") == False\nE       AssertionError: assert True == False\nE        +  where True = text_lowercase_underscore('Abc_def')\n\ntest_solution.py:22: AssertionError"
+    }
+  ],
+  "verdict": "CODE_BUG_FOUND",
+  "verdict_reason": "1 test(s) expose a bug in the code, branch coverage 100% (target 100%)",
+  "feedback": "- Result: 9 passed, 1 failed, 0 errors (10 tests). Verdict: CODE_BUG_FOUND.\n- Statement coverage 100%, branch coverage 100% (target 100% branch).\n- Failing tests that expose a BUG in the code (keep them unchanged):\n    * test_lowercase_underscore_uppercase_letter: The function returns True for 'Abc_def' but the specification requires only lowercase letters, so uppercase should make it return False.\nKeep the passing tests, fix wrong expectations, and add tests that execute the uncovered lines and decision outcomes."
+}

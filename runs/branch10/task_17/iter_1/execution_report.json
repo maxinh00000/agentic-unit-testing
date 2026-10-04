@@ -1,0 +1,49 @@
+{
+  "exit_code": 0,
+  "timed_out": false,
+  "tests": [
+    {
+      "name": "test_square_perimeter_positive_integer",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_square_perimeter_zero",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_square_perimeter_negative",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_square_perimeter_float",
+      "status": "passed",
+      "message": ""
+    }
+  ],
+  "total": 4,
+  "passed": 4,
+  "failed": 0,
+  "errors": 0,
+  "output_tail": "....                                                                     [100%]\n- generated xml file: E:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10\\task_17\\iter_1\\junit.xml -\n\n---------- coverage: platform win32, python 3.12.7-final-0 -----------\nName          Stmts   Miss Branch BrPart  Cover   Missing\n---------------------------------------------------------\nsolution.py       2      0      0      0   100%\n---------------------------------------------------------\nTOTAL             2      0      0      0   100%\nCoverage JSON written to file coverage.json\n\n4 passed in 0.12s\n",
+  "coverage": {
+    "statements": 2,
+    "covered_statements": 2,
+    "statement_pct": 100.0,
+    "branches": 0,
+    "covered_branches": 0,
+    "branch_pct": 100.0,
+    "missing_lines": [],
+    "missing_branches": []
+  },
+  "criterion": "branch",
+  "criterion_pct": 100.0,
+  "target_pct": 100.0,
+  "target_met": true,
+  "triage": [],
+  "verdict": "PASS",
+  "verdict_reason": "all 4 tests passed, branch coverage 100% (target 100%)",
+  "feedback": "- Result: 4 passed, 0 failed, 0 errors (4 tests). Verdict: PASS.\n- Statement coverage 100%, branch coverage 100% (target 100% branch).\nKeep the passing tests, fix wrong expectations, and add tests that execute the uncovered lines and decision outcomes."
+}

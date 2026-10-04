@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="3" time="0.104" timestamp="2026-09-29T15:32:06.113261" hostname="Rickputer"><testcase classname="test_solution" name="test_reference_1" time="0.001" /><testcase classname="test_solution" name="test_reference_2" time="0.000" /><testcase classname="test_solution" name="test_reference_3" time="0.001"><failure message="AssertionError: assert True == False&#10; +  where True = text_lowercase_underscore('Aaab_abbbc')">def test_reference_3():
+&gt;       assert text_lowercase_underscore("Aaab_abbbc")==(False)
+E       AssertionError: assert True == False
+E        +  where True = text_lowercase_underscore('Aaab_abbbc')
+
+test_solution.py:10: AssertionError</failure></testcase></testsuite></testsuites>

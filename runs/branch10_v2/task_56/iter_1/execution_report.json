@@ -1,0 +1,98 @@
+{
+  "exit_code": 1,
+  "timed_out": false,
+  "tests": [
+    {
+      "name": "test_check_false_example",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_true_case_1",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_true_case_37",
+      "status": "failed",
+      "message": "assert False == True\n +  where False = check(37)\ndef test_check_true_case_37():\n>       assert check(37) == True\nE       assert False == True\nE        +  where False = check(37)\n\ntest_solution.py:10: AssertionError"
+    },
+    {
+      "name": "test_check_false_case_10",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_false_case_123",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_false_case_0",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_false_case_2",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_false_case_3",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_false_case_73",
+      "status": "failed",
+      "message": "assert True == False\n +  where True = check(73)\ndef test_check_false_case_73():\n>       assert check(73) == False\nE       assert True == False\nE        +  where True = check(73)\n\ntest_solution.py:28: AssertionError"
+    },
+    {
+      "name": "test_check_true_case_397",
+      "status": "failed",
+      "message": "assert False == True\n +  where False = check(397)\ndef test_check_true_case_397():\n>       assert check(397) == True\nE       assert False == True\nE        +  where False = check(397)\n\ntest_solution.py:31: AssertionError"
+    }
+  ],
+  "total": 10,
+  "passed": 7,
+  "failed": 3,
+  "errors": 0,
+  "output_tail": "..F.....FF                                                               [100%]\n================================== FAILURES ===================================\n___________________________ test_check_true_case_37 ___________________________\n\n    def test_check_true_case_37():\n>       assert check(37) == True\nE       assert False == True\nE        +  where False = check(37)\n\ntest_solution.py:10: AssertionError\n__________________________ test_check_false_case_73 ___________________________\n\n    def test_check_false_case_73():\n>       assert check(73) == False\nE       assert True == False\nE        +  where True = check(73)\n\ntest_solution.py:28: AssertionError\n__________________________ test_check_true_case_397 ___________________________\n\n    def test_check_true_case_397():\n>       assert check(397) == True\nE       assert False == True\nE        +  where False = check(397)\n\ntest_solution.py:31: AssertionError\n- generated xml file: E:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10_v2\\task_56\\iter_1\\junit.xml -\n\n---------- coverage: platform win32, python 3.12.7-final-0 -----------\nName          Stmts   Miss Branch BrPart  Cover   Missing\n---------------------------------------------------------\nsolution.py       3      0      0      0   100%\n---------------------------------------------------------\nTOTAL             3      0      0      0   100%\nCoverage JSON written to file coverage.json\n\n=========================== short test summary info ===========================\nFAILED test_solution.py::test_check_true_case_37 - assert False == True\nFAILED test_solution.py::test_check_false_case_73 - assert True == False\nFAILED test_solution.py::test_check_true_case_397 - assert False == True\n3 failed, 7 passed in 0.15s\n",
+  "coverage": {
+    "statements": 3,
+    "covered_statements": 3,
+    "statement_pct": 100.0,
+    "branches": 0,
+    "covered_branches": 0,
+    "branch_pct": 100.0,
+    "missing_lines": [],
+    "missing_branches": []
+  },
+  "criterion": "branch",
+  "criterion_pct": 100.0,
+  "target_pct": 100.0,
+  "target_met": true,
+  "triage": [
+    {
+      "test": "test_check_true_case_37",
+      "fault": "test",
+      "reason": "For n=37, reverse is 73, 2*73-1=145 \u2260 37, so the function correctly returns False; the test expects True but the specification does not allow it.",
+      "message": "assert False == True\n +  where False = check(37)\ndef test_check_true_case_37():\n>       assert check(37) == True\nE       assert False == True\nE        +  where False = check(37)\n\ntest_solution.py:10: AssertionError"
+    },
+    {
+      "test": "test_check_false_case_73",
+      "fault": "test",
+      "reason": "For n=73, reverse is 37, 2*37-1=73, so the function correctly returns True; the test expects False but the specification allows it.",
+      "message": "assert True == False\n +  where True = check(73)\ndef test_check_false_case_73():\n>       assert check(73) == False\nE       assert True == False\nE        +  where True = check(73)\n\ntest_solution.py:28: AssertionError"
+    },
+    {
+      "test": "test_check_true_case_397",
+      "fault": "test",
+      "reason": "For n=397, reverse is 793, 2*793-1=1585 \u2260 397, so the function correctly returns False; the test expects True but the specification does not allow it.",
+      "message": "assert False == True\n +  where False = check(397)\ndef test_check_true_case_397():\n>       assert check(397) == True\nE       assert False == True\nE        +  where False = check(397)\n\ntest_solution.py:31: AssertionError"
+    }
+  ],
+  "verdict": "TEST_BUG",
+  "verdict_reason": "3 failing test(s) have wrong expectations, branch coverage 100% (target 100%)",
+  "feedback": "- Result: 7 passed, 3 failed, 0 errors (10 tests). Verdict: TEST_BUG.\n- Statement coverage 100%, branch coverage 100% (target 100% branch).\n- Failing tests with an INCORRECT expectation (fix or remove them):\n    * test_check_true_case_37: assert False == True -- For n=37, reverse is 73, 2*73-1=145 \u2260 37, so the function correctly returns False; the test expects True but the specification does not allow it.\n    * test_check_false_case_73: assert True == False -- For n=73, reverse is 37, 2*37-1=73, so the function correctly returns True; the test expects False but the specification allows it.\n    * test_check_true_case_397: assert False == True -- For n=397, reverse is 793, 2*793-1=1585 \u2260 397, so the function correctly returns False; the test expects True but the specification does not allow it.\nKeep the passing tests, fix wrong expectations, and add tests that execute the uncovered lines and decision outcomes."
+}

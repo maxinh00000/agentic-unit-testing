@@ -1,0 +1,64 @@
+{
+  "exit_code": 0,
+  "timed_out": false,
+  "tests": [
+    {
+      "name": "test_negative",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_zero",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_woodall_one",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_woodall_seven",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_woodall_three",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_woodall_twenty_three",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_non_woodall_twenty",
+      "status": "passed",
+      "message": ""
+    }
+  ],
+  "total": 7,
+  "passed": 7,
+  "failed": 0,
+  "errors": 0,
+  "output_tail": ".......                                                                  [100%]\n- generated xml file: E:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10\\task_20\\iter_3\\junit.xml -\n\n---------- coverage: platform win32, python 3.12.7-final-0 -----------\nName          Stmts   Miss Branch BrPart  Cover   Missing\n---------------------------------------------------------\nsolution.py      11      0      6      0   100%\n---------------------------------------------------------\nTOTAL            11      0      6      0   100%\nCoverage JSON written to file coverage.json\n\n7 passed in 0.13s\n",
+  "coverage": {
+    "statements": 11,
+    "covered_statements": 11,
+    "statement_pct": 100.0,
+    "branches": 6,
+    "covered_branches": 6,
+    "branch_pct": 100.0,
+    "missing_lines": [],
+    "missing_branches": []
+  },
+  "criterion": "branch",
+  "criterion_pct": 100.0,
+  "target_pct": 100.0,
+  "target_met": true,
+  "triage": [],
+  "verdict": "PASS",
+  "verdict_reason": "all 7 tests passed, branch coverage 100% (target 100%)",
+  "feedback": "- Result: 7 passed, 0 failed, 0 errors (7 tests). Verdict: PASS.\n- Statement coverage 100%, branch coverage 100% (target 100% branch).\nKeep the passing tests, fix wrong expectations, and add tests that execute the uncovered lines and decision outcomes."
+}

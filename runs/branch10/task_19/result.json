@@ -1,0 +1,37 @@
+{
+  "task_id": 19,
+  "function": "test_duplicate",
+  "prompt": "Write a function to find whether a given array of integers contains any duplicate element.",
+  "code_attempts": 1,
+  "code_structural_problem": null,
+  "reference_passed": 3,
+  "reference_total": 3,
+  "code_correct": false,
+  "iterations_run": 2,
+  "final_iteration": 2,
+  "tests_total": 8,
+  "tests_passed": 8,
+  "tests_failed": 0,
+  "tests_errors": 0,
+  "statement_pct": 100.0,
+  "branch_pct": 100.0,
+  "statements": 7,
+  "branches": 4,
+  "criterion_pct": 100.0,
+  "target_met": true,
+  "verdict": "PASS",
+  "verdict_reason": "all 8 tests passed, branch coverage 100% (target 100%)",
+  "triage": [],
+  "coverage_by_iteration": [
+    100.0,
+    100.0
+  ],
+  "verdict_by_iteration": [
+    "ERROR",
+    "PASS"
+  ],
+  "oracle_valid": 8,
+  "oracle_total": 8,
+  "real_bug_found": false,
+  "seconds": 77.9
+}

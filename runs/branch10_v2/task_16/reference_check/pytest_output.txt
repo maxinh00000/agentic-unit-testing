@@ -1,0 +1,14 @@
+..F                                                                      [100%]
+================================== FAILURES ===================================
+______________________________ test_reference_3 _______________________________
+
+    def test_reference_3():
+>       assert text_lowercase_underscore("Aaab_abbbc")==(False)
+E       AssertionError: assert True == False
+E        +  where True = text_lowercase_underscore('Aaab_abbbc')
+
+test_solution.py:10: AssertionError
+- generated xml file: E:\Acads\Sem 7\ST\MidProject\runs\branch10_v2\task_16\reference_check\junit.xml -
+=========================== short test summary info ===========================
+FAILED test_solution.py::test_reference_3 - AssertionError: assert True == False
+1 failed, 2 passed in 0.14s

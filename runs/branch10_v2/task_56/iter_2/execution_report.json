@@ -1,0 +1,79 @@
+{
+  "exit_code": 0,
+  "timed_out": false,
+  "tests": [
+    {
+      "name": "test_check_false_example",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_true_case_1",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_false_case_10",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_false_case_123",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_false_case_0",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_false_case_2",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_false_case_3",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_false_case_37",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_true_case_73",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_check_false_case_397",
+      "status": "passed",
+      "message": ""
+    }
+  ],
+  "total": 10,
+  "passed": 10,
+  "failed": 0,
+  "errors": 0,
+  "output_tail": "..........                                                               [100%]\n- generated xml file: E:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10_v2\\task_56\\iter_2\\junit.xml -\n\n---------- coverage: platform win32, python 3.12.7-final-0 -----------\nName          Stmts   Miss Branch BrPart  Cover   Missing\n---------------------------------------------------------\nsolution.py       3      0      0      0   100%\n---------------------------------------------------------\nTOTAL             3      0      0      0   100%\nCoverage JSON written to file coverage.json\n\n10 passed in 0.14s\n",
+  "coverage": {
+    "statements": 3,
+    "covered_statements": 3,
+    "statement_pct": 100.0,
+    "branches": 0,
+    "covered_branches": 0,
+    "branch_pct": 100.0,
+    "missing_lines": [],
+    "missing_branches": []
+  },
+  "criterion": "branch",
+  "criterion_pct": 100.0,
+  "target_pct": 100.0,
+  "target_met": true,
+  "triage": [],
+  "verdict": "PASS",
+  "verdict_reason": "all 10 tests passed, branch coverage 100% (target 100%)",
+  "feedback": "- Result: 10 passed, 0 failed, 0 errors (10 tests). Verdict: PASS.\n- Statement coverage 100%, branch coverage 100% (target 100% branch).\nKeep the passing tests, fix wrong expectations, and add tests that execute the uncovered lines and decision outcomes."
+}

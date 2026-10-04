@@ -1,0 +1,14 @@
+.F........                                                               [100%]
+================================== FAILURES ===================================
+_______________ test_lowercase_underscore_multiple_underscores ________________
+
+    def test_lowercase_underscore_multiple_underscores():
+>       assert text_lowercase_underscore("abc_def_ghi") == True
+E       AssertionError: assert False == True
+E        +  where False = text_lowercase_underscore('abc_def_ghi')
+
+test_solution.py:7: AssertionError
+- generated xml file: E:\Acads\Sem 7\ST\MidProject\runs\branch10_v2\task_16\oracle_check\junit.xml -
+=========================== short test summary info ===========================
+FAILED test_solution.py::test_lowercase_underscore_multiple_underscores - Ass...
+1 failed, 9 passed in 0.14s

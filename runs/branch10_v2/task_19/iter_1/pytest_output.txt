@@ -1,0 +1,12 @@
+.....                                                                    [100%]
+- generated xml file: E:\Acads\Sem 7\ST\MidProject\runs\branch10_v2\task_19\iter_1\junit.xml -
+
+---------- coverage: platform win32, python 3.12.7-final-0 -----------
+Name          Stmts   Miss Branch BrPart  Cover   Missing
+---------------------------------------------------------
+solution.py       2      0      0      0   100%
+---------------------------------------------------------
+TOTAL             2      0      0      0   100%
+Coverage JSON written to file coverage.json
+
+5 passed in 0.14s

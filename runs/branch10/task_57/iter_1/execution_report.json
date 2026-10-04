@@ -1,0 +1,71 @@
+{
+  "exit_code": 1,
+  "timed_out": false,
+  "tests": [
+    {
+      "name": "test_find_Max_Num_basic_example",
+      "status": "failed",
+      "message": "assert 3221 == 321\n +  where 3221 = find_Max_Num([1, 2, 3, 2])\ndef test_find_Max_Num_basic_example():\n>       assert find_Max_Num([1, 2, 3, 2]) == 321\nE       assert 3221 == 321\nE        +  where 3221 = find_Max_Num([1, 2, 3, 2])\n\ntest_solution.py:4: AssertionError"
+    },
+    {
+      "name": "test_find_Max_Num_single_digit",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_find_Max_Num_with_zeros",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_find_Max_Num_all_zeros",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_find_Max_Num_descending_input",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_find_Max_Num_ascending_input",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_find_Max_Num_repeated_digits",
+      "status": "passed",
+      "message": ""
+    }
+  ],
+  "total": 7,
+  "passed": 6,
+  "failed": 1,
+  "errors": 0,
+  "output_tail": "F......                                                                  [100%]\n================================== FAILURES ===================================\n_______________________ test_find_Max_Num_basic_example _______________________\n\n    def test_find_Max_Num_basic_example():\n>       assert find_Max_Num([1, 2, 3, 2]) == 321\nE       assert 3221 == 321\nE        +  where 3221 = find_Max_Num([1, 2, 3, 2])\n\ntest_solution.py:4: AssertionError\n- generated xml file: E:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10\\task_57\\iter_1\\junit.xml -\n\n---------- coverage: platform win32, python 3.12.7-final-0 -----------\nName          Stmts   Miss Branch BrPart  Cover   Missing\n---------------------------------------------------------\nsolution.py       6      0      2      0   100%\n---------------------------------------------------------\nTOTAL             6      0      2      0   100%\nCoverage JSON written to file coverage.json\n\n=========================== short test summary info ===========================\nFAILED test_solution.py::test_find_Max_Num_basic_example - assert 3221 == 321\n1 failed, 6 passed in 0.14s\n",
+  "coverage": {
+    "statements": 6,
+    "covered_statements": 6,
+    "statement_pct": 100.0,
+    "branches": 2,
+    "covered_branches": 2,
+    "branch_pct": 100.0,
+    "missing_lines": [],
+    "missing_branches": []
+  },
+  "criterion": "branch",
+  "criterion_pct": 100.0,
+  "target_pct": 100.0,
+  "target_met": true,
+  "triage": [
+    {
+      "test": "test_find_Max_Num_basic_example",
+      "fault": "test",
+      "reason": "The test expects 321 for input [1,2,3,2], but the specification's example only covers [1,2,3]; the correct largest number from [1,2,3,2] is 3221.",
+      "message": "assert 3221 == 321\n +  where 3221 = find_Max_Num([1, 2, 3, 2])\ndef test_find_Max_Num_basic_example():\n>       assert find_Max_Num([1, 2, 3, 2]) == 321\nE       assert 3221 == 321\nE        +  where 3221 = find_Max_Num([1, 2, 3, 2])\n\ntest_solution.py:4: AssertionError"
+    }
+  ],
+  "verdict": "TEST_BUG",
+  "verdict_reason": "1 failing test(s) have wrong expectations, branch coverage 100% (target 100%)",
+  "feedback": "- Result: 6 passed, 1 failed, 0 errors (7 tests). Verdict: TEST_BUG.\n- Statement coverage 100%, branch coverage 100% (target 100% branch).\n- Failing tests with an INCORRECT expectation (fix or remove them):\n    * test_find_Max_Num_basic_example: assert 3221 == 321 -- The test expects 321 for input [1,2,3,2], but the specification's example only covers [1,2,3]; the correct largest number from [1,2,3,2] is 3221.\nKeep the passing tests, fix wrong expectations, and add tests that execute the uncovered lines and decision outcomes."
+}

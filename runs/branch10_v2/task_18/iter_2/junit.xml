@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="8" time="0.116" timestamp="2026-09-29T15:34:30.581550" hostname="Rickputer"><testcase classname="test_solution" name="test_remove_dirty_chars_basic" time="0.002" /><testcase classname="test_solution" name="test_remove_dirty_chars_no_overlap" time="0.001" /><testcase classname="test_solution" name="test_remove_dirty_chars_all_removed" time="0.001" /><testcase classname="test_solution" name="test_remove_dirty_chars_empty_s1" time="0.001" /><testcase classname="test_solution" name="test_remove_dirty_chars_empty_s2" time="0.001" /><testcase classname="test_solution" name="test_remove_dirty_chars_duplicate_chars" time="0.001" /><testcase classname="test_solution" name="test_remove_dirty_chars_case_sensitive" time="0.001" /><testcase classname="test_solution" name="test_remove_dirty_chars_special_chars" time="0.003"><failure message="AssertionError: assert 'abc#' == 'ab@c#'&#10;  - ab@c#&#10;  ?   -&#10;  + abc#">def test_remove_dirty_chars_special_chars():
+&gt;       assert remove_dirty_chars("a!b@c#", "!@") == 'ab@c#'
+E       AssertionError: assert 'abc#' == 'ab@c#'
+E         - ab@c#
+E         ?   -
+E         + abc#
+
+test_solution.py:25: AssertionError</failure></testcase></testsuite></testsuites>

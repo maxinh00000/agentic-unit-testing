@@ -1,0 +1,43 @@
+{
+  "task_id": 16,
+  "function": "text_lowercase_underscore",
+  "prompt": "Write a function to that returns true if the input string contains sequences of lowercase letters joined with an underscore and false otherwise.",
+  "code_attempts": 1,
+  "code_structural_problem": null,
+  "reference_passed": 2,
+  "reference_total": 3,
+  "code_correct": false,
+  "iterations_run": 1,
+  "final_iteration": 1,
+  "tests_total": 10,
+  "tests_passed": 9,
+  "tests_failed": 1,
+  "tests_errors": 0,
+  "statement_pct": 100.0,
+  "branch_pct": 100.0,
+  "statements": 6,
+  "branches": 2,
+  "criterion_pct": 100.0,
+  "target_met": true,
+  "verdict": "CODE_BUG_FOUND",
+  "verdict_reason": "1 test(s) expose a bug in the code, branch coverage 100% (target 100%)",
+  "triage": [
+    {
+      "test": "test_lowercase_underscore_uppercase_letter",
+      "fault": "code",
+      "reason": "The function returns True for 'Abc_def' but the specification requires only lowercase letters, so uppercase should make it return False.",
+      "message": "AssertionError: assert True == False\n +  where True = text_lowercase_underscore('Abc_def')\ndef test_lowercase_underscore_uppercase_letter():\n>       assert text_lowercase_underscore(\"Abc_def\") == False\nE       AssertionError: assert True == False\nE        +  where True = text_lowercase_underscore('Abc_def')\n\ntest_solution.py:22: AssertionError"
+    }
+  ],
+  "coverage_by_iteration": [
+    100.0
+  ],
+  "verdict_by_iteration": [
+    "CODE_BUG_FOUND"
+  ],
+  "unusable_test_replies": 0,
+  "oracle_valid": 9,
+  "oracle_total": 10,
+  "real_bug_found": true,
+  "seconds": 31.9
+}

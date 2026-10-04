@@ -1,0 +1,41 @@
+F.....F.F.                                                               [100%]
+================================== FAILURES ===================================
+____________________________ test_check_true_case _____________________________
+
+    def test_check_true_case():
+>       assert check(37) == True
+E       assert False == True
+E        +  where False = check(37)
+
+test_solution.py:4: AssertionError
+___________________________ test_check_large_number ___________________________
+
+    def test_check_large_number():
+>       assert check(397) == True
+E       assert False == True
+E        +  where False = check(397)
+
+test_solution.py:22: AssertionError
+________________________ test_check_another_true_case _________________________
+
+    def test_check_another_true_case():
+>       assert check(73) == False
+E       assert True == False
+E        +  where True = check(73)
+
+test_solution.py:28: AssertionError
+- generated xml file: E:\Acads\Sem 7\ST\MidProject\runs\branch10\task_56\iter_1\junit.xml -
+
+---------- coverage: platform win32, python 3.12.7-final-0 -----------
+Name          Stmts   Miss Branch BrPart  Cover   Missing
+---------------------------------------------------------
+solution.py       3      0      0      0   100%
+---------------------------------------------------------
+TOTAL             3      0      0      0   100%
+Coverage JSON written to file coverage.json
+
+=========================== short test summary info ===========================
+FAILED test_solution.py::test_check_true_case - assert False == True
+FAILED test_solution.py::test_check_large_number - assert False == True
+FAILED test_solution.py::test_check_another_true_case - assert True == False
+3 failed, 7 passed in 0.16s

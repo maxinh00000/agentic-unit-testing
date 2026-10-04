@@ -1,0 +1,23 @@
+F.F.........                                                             [100%]
+================================== FAILURES ===================================
+_________________________ test_single_lowercase_word __________________________
+
+    def test_single_lowercase_word():
+>       assert text_lowercase_underscore("hello") == True
+E       AssertionError: assert False == True
+E        +  where False = text_lowercase_underscore('hello')
+
+test_solution.py:4: AssertionError
+__________________________ test_multiple_underscores __________________________
+
+    def test_multiple_underscores():
+>       assert text_lowercase_underscore("a_b_c") == True
+E       AssertionError: assert False == True
+E        +  where False = text_lowercase_underscore('a_b_c')
+
+test_solution.py:10: AssertionError
+- generated xml file: E:\Acads\Sem 7\ST\MidProject\runs\branch10\task_16\oracle_check\junit.xml -
+=========================== short test summary info ===========================
+FAILED test_solution.py::test_single_lowercase_word - AssertionError: assert ...
+FAILED test_solution.py::test_multiple_underscores - AssertionError: assert F...
+2 failed, 10 passed in 0.14s

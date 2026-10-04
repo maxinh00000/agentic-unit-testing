@@ -1,0 +1,62 @@
+{
+  "exit_code": 0,
+  "timed_out": false,
+  "tests": [
+    {
+      "name": "test_negative",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_zero",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_woodall_one",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_woodall_seven",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_woodall_three",
+      "status": "passed",
+      "message": ""
+    }
+  ],
+  "total": 5,
+  "passed": 5,
+  "failed": 0,
+  "errors": 0,
+  "output_tail": ".....                                                                    [100%]\n- generated xml file: E:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10\\task_20\\iter_1\\junit.xml -\n\n---------- coverage: platform win32, python 3.12.7-final-0 -----------\nName          Stmts   Miss Branch BrPart  Cover   Missing\n---------------------------------------------------------\nsolution.py      11      1      6      1    88%   11\n---------------------------------------------------------\nTOTAL            11      1      6      1    88%\nCoverage JSON written to file coverage.json\n\n5 passed in 0.14s\n",
+  "coverage": {
+    "statements": 11,
+    "covered_statements": 10,
+    "statement_pct": 90.91,
+    "branches": 6,
+    "covered_branches": 5,
+    "branch_pct": 83.33,
+    "missing_lines": [
+      11
+    ],
+    "missing_branches": [
+      {
+        "from": 10,
+        "to": 11,
+        "text": "line 10 (`if w > num:`) -> line 11 never taken"
+      }
+    ]
+  },
+  "criterion": "branch",
+  "criterion_pct": 83.33,
+  "target_pct": 100.0,
+  "target_met": false,
+  "triage": [],
+  "verdict": "COVERAGE_NOT_MET",
+  "verdict_reason": "all 5 tests passed, branch coverage 83.33% (target 100%)",
+  "feedback": "- Result: 5 passed, 0 failed, 0 errors (5 tests). Verdict: COVERAGE_NOT_MET.\n- Statement coverage 90.91%, branch coverage 83.33% (target 100% branch).\n- Lines never executed: 11\n- Decision outcomes never taken:\n    * line 10 (`if w > num:`) -> line 11 never taken\nKeep the passing tests, fix wrong expectations, and add tests that execute the uncovered lines and decision outcomes."
+}

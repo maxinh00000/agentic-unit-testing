@@ -1,0 +1,36 @@
+{
+  "task_id": 11,
+  "function": "remove_Occ",
+  "prompt": "Write a python function to remove first and last occurrence of a given character from the string.",
+  "code_attempts": 1,
+  "code_structural_problem": null,
+  "reference_passed": 3,
+  "reference_total": 3,
+  "code_correct": true,
+  "iterations_run": 1,
+  "final_iteration": 1,
+  "tests_total": 9,
+  "tests_passed": 9,
+  "tests_failed": 0,
+  "tests_errors": 0,
+  "statement_pct": 100.0,
+  "branch_pct": 100.0,
+  "statements": 8,
+  "branches": 4,
+  "criterion_pct": 100.0,
+  "target_met": true,
+  "verdict": "PASS",
+  "verdict_reason": "all 9 tests passed, branch coverage 100% (target 100%)",
+  "triage": [],
+  "coverage_by_iteration": [
+    100.0
+  ],
+  "verdict_by_iteration": [
+    "PASS"
+  ],
+  "unusable_test_replies": 0,
+  "oracle_valid": 9,
+  "oracle_total": 9,
+  "real_bug_found": false,
+  "seconds": 19.5
+}

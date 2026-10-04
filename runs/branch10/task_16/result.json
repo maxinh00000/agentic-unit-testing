@@ -1,0 +1,35 @@
+{
+  "task_id": 16,
+  "function": "text_lowercase_underscore",
+  "prompt": "Write a function to that returns true if the input string contains sequences of lowercase letters joined with an underscore and false otherwise.",
+  "code_attempts": 1,
+  "code_structural_problem": null,
+  "reference_passed": 3,
+  "reference_total": 3,
+  "code_correct": true,
+  "iterations_run": 1,
+  "final_iteration": 1,
+  "tests_total": 12,
+  "tests_passed": 12,
+  "tests_failed": 0,
+  "tests_errors": 0,
+  "statement_pct": 100.0,
+  "branch_pct": 100.0,
+  "statements": 3,
+  "branches": 0,
+  "criterion_pct": 100.0,
+  "target_met": true,
+  "verdict": "PASS",
+  "verdict_reason": "all 12 tests passed, branch coverage 100% (target 100%)",
+  "triage": [],
+  "coverage_by_iteration": [
+    100.0
+  ],
+  "verdict_by_iteration": [
+    "PASS"
+  ],
+  "oracle_valid": 10,
+  "oracle_total": 12,
+  "real_bug_found": false,
+  "seconds": 9.3
+}

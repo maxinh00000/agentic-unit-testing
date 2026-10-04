@@ -1,0 +1,39 @@
+{
+  "task_id": 20,
+  "function": "is_woodall",
+  "prompt": "Write a function to check if the given number is woodball or not.",
+  "code_attempts": 1,
+  "code_structural_problem": null,
+  "reference_passed": 3,
+  "reference_total": 3,
+  "code_correct": true,
+  "iterations_run": 3,
+  "final_iteration": 3,
+  "tests_total": 7,
+  "tests_passed": 7,
+  "tests_failed": 0,
+  "tests_errors": 0,
+  "statement_pct": 100.0,
+  "branch_pct": 100.0,
+  "statements": 11,
+  "branches": 6,
+  "criterion_pct": 100.0,
+  "target_met": true,
+  "verdict": "PASS",
+  "verdict_reason": "all 7 tests passed, branch coverage 100% (target 100%)",
+  "triage": [],
+  "coverage_by_iteration": [
+    83.33,
+    0.0,
+    100.0
+  ],
+  "verdict_by_iteration": [
+    "COVERAGE_NOT_MET",
+    "ERROR",
+    "PASS"
+  ],
+  "oracle_valid": 7,
+  "oracle_total": 7,
+  "real_bug_found": false,
+  "seconds": 115.3
+}

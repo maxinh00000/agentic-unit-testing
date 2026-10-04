@@ -1,0 +1,12 @@
+.env
+__pycache__/
+.coverage
+.pytest_cache/
+data/
+runs/_*/
+# runs/
+*.pyc
+.venv/
+venv/
+# course handout (not ours to redistribute)
+AI-assisted-unit-testing-project.pdf

@@ -1,0 +1,76 @@
+{
+  "exit_code": 1,
+  "timed_out": false,
+  "tests": [
+    {
+      "name": "test_remove_dirty_chars_basic",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_remove_dirty_chars_no_overlap",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_remove_dirty_chars_all_removed",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_remove_dirty_chars_empty_s1",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_remove_dirty_chars_empty_s2",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_remove_dirty_chars_duplicate_chars",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_remove_dirty_chars_case_sensitive",
+      "status": "passed",
+      "message": ""
+    },
+    {
+      "name": "test_remove_dirty_chars_special_chars",
+      "status": "failed",
+      "message": "AssertionError: assert 'abc#' == 'ab@c#'\n  - ab@c#\n  ?   -\n  + abc#\ndef test_remove_dirty_chars_special_chars():\n>       assert remove_dirty_chars(\"a!b@c#\", \"!@\") == 'ab@c#'\nE       AssertionError: assert 'abc#' == 'ab@c#'\nE         - ab@c#\nE         ?   -\nE         + abc#\n\ntest_solution.py:25: AssertionError"
+    }
+  ],
+  "total": 8,
+  "passed": 7,
+  "failed": 1,
+  "errors": 0,
+  "output_tail": ".......F                                                                 [100%]\n================================== FAILURES ===================================\n____________________ test_remove_dirty_chars_special_chars ____________________\n\n    def test_remove_dirty_chars_special_chars():\n>       assert remove_dirty_chars(\"a!b@c#\", \"!@\") == 'ab@c#'\nE       AssertionError: assert 'abc#' == 'ab@c#'\nE         - ab@c#\nE         ?   -\nE         + abc#\n\ntest_solution.py:25: AssertionError\n- generated xml file: E:\\Acads\\Sem 7\\ST\\MidProject\\runs\\branch10_v2\\task_18\\iter_2\\junit.xml -\n\n---------- coverage: platform win32, python 3.12.7-final-0 -----------\nName          Stmts   Miss Branch BrPart  Cover   Missing\n---------------------------------------------------------\nsolution.py       3      0      0      0   100%\n---------------------------------------------------------\nTOTAL             3      0      0      0   100%\nCoverage JSON written to file coverage.json\n\n=========================== short test summary info ===========================\nFAILED test_solution.py::test_remove_dirty_chars_special_chars - AssertionErr...\n1 failed, 7 passed in 0.14s\n",
+  "coverage": {
+    "statements": 3,
+    "covered_statements": 3,
+    "statement_pct": 100.0,
+    "branches": 0,
+    "covered_branches": 0,
+    "branch_pct": 100.0,
+    "missing_lines": [],
+    "missing_branches": []
+  },
+  "criterion": "branch",
+  "criterion_pct": 100.0,
+  "target_pct": 100.0,
+  "target_met": true,
+  "triage": [
+    {
+      "test": "test_remove_dirty_chars_special_chars",
+      "fault": "test",
+      "reason": "The test expects '@' to remain in the output, but '@' is in the dirty string and should be removed per specification.",
+      "message": "AssertionError: assert 'abc#' == 'ab@c#'\n  - ab@c#\n  ?   -\n  + abc#\ndef test_remove_dirty_chars_special_chars():\n>       assert remove_dirty_chars(\"a!b@c#\", \"!@\") == 'ab@c#'\nE       AssertionError: assert 'abc#' == 'ab@c#'\nE         - ab@c#\nE         ?   -\nE         + abc#\n\ntest_solution.py:25: AssertionError"
+    }
+  ],
+  "verdict": "TEST_BUG",
+  "verdict_reason": "1 failing test(s) have wrong expectations, branch coverage 100% (target 100%)",
+  "feedback": "- Result: 7 passed, 1 failed, 0 errors (8 tests). Verdict: TEST_BUG.\n- Statement coverage 100%, branch coverage 100% (target 100% branch).\n- Failing tests with an INCORRECT expectation (fix or remove them):\n    * test_remove_dirty_chars_special_chars: AssertionError: assert 'abc#' == 'ab@c#' -- The test expects '@' to remain in the output, but '@' is in the dirty string and should be removed per specification.\nKeep the passing tests, fix wrong expectations, and add tests that execute the uncovered lines and decision outcomes."
+}

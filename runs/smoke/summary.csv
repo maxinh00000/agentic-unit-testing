@@ -1,0 +1,2 @@
+task_id,function,code_correct,reference_passed,reference_total,iterations_run,tests_total,tests_passed,tests_failed,statement_pct,branch_pct,target_met,verdict,oracle_valid,oracle_total,real_bug_found,coverage_by_iteration
+11,remove_Occ,True,3,3,1,8,8,0,100.0,100.0,True,PASS,8,8,False,100

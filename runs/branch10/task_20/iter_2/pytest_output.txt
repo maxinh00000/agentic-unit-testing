@@ -1,0 +1,44 @@
+WARNING: Failed to generate report: No data to report.
+
+
+=================================== ERRORS ====================================
+______________________ ERROR collecting test_solution.py ______________________
+C:\Users\thriv\anaconda3\Lib\site-packages\_pytest\python.py:617: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+C:\Users\thriv\anaconda3\Lib\site-packages\_pytest\pathlib.py:567: in import_path
+    importlib.import_module(module_name)
+C:\Users\thriv\anaconda3\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1331: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:935: in _load_unlocked
+    ???
+C:\Users\thriv\anaconda3\Lib\site-packages\_pytest\assertion\rewrite.py:177: in exec_module
+    source_stat, co = _rewrite_test(fn, self.config)
+C:\Users\thriv\anaconda3\Lib\site-packages\_pytest\assertion\rewrite.py:359: in _rewrite_test
+    tree = ast.parse(source, filename=strfn)
+C:\Users\thriv\anaconda3\Lib\ast.py:52: in parse
+    return compile(source, filename, mode, flags,
+E     File "E:\Acads\Sem 7\ST\MidProject\runs\branch10\task_20\iter_2\test_solution.py", line 24
+E       - Also need to cover entering the loop body and finishing/skipping the loop? The while True loop always enters at least once because condition is True. However, we need to consider the loop's decision outcomes: entering the loop body (always true) and finishing/skipping the loop (i.e., when condition false). Since condition is always True, the loop never finishes/skips; but we still need to cover the decision outcome of the while condition? The requirement: for every for/while loop both entering the loop body and finishing/skipping the loop. Since while True, the condition is always true, so the loop body is always entered, and the loop never finishes/skips (i.e., condition false). However, we cannot make it false because it's True constant. But we can still consider that the loop's condition is evaluated each iteration; we need to cover both outcomes: True (enter) and False (exit). Since condition is constant True, we cannot get False outcome. However, maybe they consider that the loop will eventually break via return statements, so the loop is exited via return, not via condition becoming false. The requirement "finishing/skipping the loop" likely means the loop condition evaluates to False and loop ends without executing body. Since we cannot make that happen, maybe we accept that it's impossible and coverage cannot be 100%? But the feedback says branch coverage 83.33% and line 11 never executed (the return False after w > num). So they consider that we need to trigger the w > num branch to return False. That's the missing branch.
+E                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+E   SyntaxError: unterminated string literal (detected at line 24)
+- generated xml file: E:\Acads\Sem 7\ST\MidProject\runs\branch10\task_20\iter_2\junit.xml -
+
+---------- coverage: platform win32, python 3.12.7-final-0 -----------
+
+=========================== short test summary info ===========================
+ERROR test_solution.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.34s
+C:\Users\thriv\anaconda3\Lib\site-packages\coverage\inorout.py:521: CoverageWarning: Module solution was never imported. (module-not-imported); see https://coverage.readthedocs.io/en/7.11.3/messages.html#warning-module-not-imported
+  self.warn(f"Module {pkg} was never imported.", slug="module-not-imported")
+C:\Users\thriv\anaconda3\Lib\site-packages\coverage\control.py:950: CoverageWarning: No data was collected. (no-data-collected); see https://coverage.readthedocs.io/en/7.11.3/messages.html#warning-no-data-collected
+  self._warn("No data was collected.", slug="no-data-collected")
+C:\Users\thriv\anaconda3\Lib\site-packages\pytest_cov\plugin.py:312: CovReportWarning: Failed to generate report: No data to report.
+
+  warnings.warn(CovReportWarning(message))

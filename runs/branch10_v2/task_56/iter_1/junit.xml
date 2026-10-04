@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="10" time="0.129" timestamp="2026-09-30T14:13:18.554211" hostname="Rickputer"><testcase classname="test_solution" name="test_check_false_example" time="0.002" /><testcase classname="test_solution" name="test_check_true_case_1" time="0.001" /><testcase classname="test_solution" name="test_check_true_case_37" time="0.002"><failure message="assert False == True&#10; +  where False = check(37)">def test_check_true_case_37():
+&gt;       assert check(37) == True
+E       assert False == True
+E        +  where False = check(37)
+
+test_solution.py:10: AssertionError</failure></testcase><testcase classname="test_solution" name="test_check_false_case_10" time="0.001" /><testcase classname="test_solution" name="test_check_false_case_123" time="0.001" /><testcase classname="test_solution" name="test_check_false_case_0" time="0.001" /><testcase classname="test_solution" name="test_check_false_case_2" time="0.001" /><testcase classname="test_solution" name="test_check_false_case_3" time="0.001" /><testcase classname="test_solution" name="test_check_false_case_73" time="0.001"><failure message="assert True == False&#10; +  where True = check(73)">def test_check_false_case_73():
+&gt;       assert check(73) == False
+E       assert True == False
+E        +  where True = check(73)
+
+test_solution.py:28: AssertionError</failure></testcase><testcase classname="test_solution" name="test_check_true_case_397" time="0.001"><failure message="assert False == True&#10; +  where False = check(397)">def test_check_true_case_397():
+&gt;       assert check(397) == True
+E       assert False == True
+E        +  where False = check(397)
+
+test_solution.py:31: AssertionError</failure></testcase></testsuite></testsuites>

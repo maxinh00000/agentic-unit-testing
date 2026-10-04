@@ -1,0 +1,11 @@
+task_id,function,code_correct,reference_passed,reference_total,iterations_run,tests_total,tests_passed,tests_failed,statement_pct,branch_pct,target_met,verdict,oracle_valid,oracle_total,real_bug_found,coverage_by_iteration
+11,remove_Occ,True,3,3,1,9,9,0,100.0,100.0,True,PASS,9,9,False,100
+12,sort_matrix,True,3,3,1,6,6,0,100.0,100.0,True,PASS,6,6,False,100
+14,find_Volume,True,3,3,2,10,10,0,100.0,100.0,True,PASS,10,10,False,100 -> 100
+16,text_lowercase_underscore,False,2,3,1,10,9,1,100.0,100.0,True,CODE_BUG_FOUND,9,10,True,100
+17,square_perimeter,True,3,3,1,4,4,0,100.0,100.0,True,PASS,4,4,False,100
+18,remove_dirty_chars,True,3,3,3,8,8,0,100.0,100.0,True,PASS,8,8,False,100 -> 100 -> 100
+19,test_duplicate,True,3,3,1,5,5,0,100.0,100.0,True,PASS,5,5,False,100
+20,is_woodall,True,3,3,1,16,16,0,100.0,100.0,True,PASS,16,16,False,100
+56,check,True,3,3,2,10,10,0,100.0,100.0,True,PASS,10,10,False,100 -> 100
+57,find_Max_Num,True,3,3,1,8,8,0,100.0,100.0,True,PASS,8,8,False,100

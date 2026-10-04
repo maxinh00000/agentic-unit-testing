@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="8" time="0.101" timestamp="2026-09-29T14:55:04.712984" hostname="Rickputer"><testcase classname="test_solution" name="test_find_Max_Num_basic_example" time="0.001" /><testcase classname="test_solution" name="test_find_Max_Num_single_digit" time="0.000" /><testcase classname="test_solution" name="test_find_Max_Num_with_zeros" time="0.000" /><testcase classname="test_solution" name="test_find_Max_Num_all_zeros" time="0.000" /><testcase classname="test_solution" name="test_find_Max_Num_descending_input" time="0.000" /><testcase classname="test_solution" name="test_find_Max_Num_ascending_input" time="0.000" /><testcase classname="test_solution" name="test_find_Max_Num_repeated_digits" time="0.000" /><testcase classname="test_solution" name="test_find_Max_Num_empty_list" time="0.001"><failure message="IndexError: list index out of range">def test_find_Max_Num_empty_list():
+&gt;       assert find_Max_Num([]) == 0
+
+test_solution.py:25: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+arr = []
+
+    def find_Max_Num(arr) :
+        n = len(arr)
+        arr.sort(reverse = True)
+&gt;       num = arr[0]
+E       IndexError: list index out of range
+
+solution.py:4: IndexError</failure></testcase></testsuite></testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="10" time="0.125" timestamp="2026-09-29T14:49:14.299601" hostname="Rickputer"><testcase classname="test_solution" name="test_remove_dirty_chars_basic_example" time="0.002" /><testcase classname="test_solution" name="test_remove_dirty_chars_no_overlap" time="0.001" /><testcase classname="test_solution" name="test_remove_dirty_chars_all_removed" time="0.001" /><testcase classname="test_solution" name="test_remove_dirty_chars_empty_first_string" time="0.001" /><testcase classname="test_solution" name="test_remove_dirty_chars_empty_second_string" time="0.001" /><testcase classname="test_solution" name="test_remove_dirty_chars_case_sensitive" time="0.001" /><testcase classname="test_solution" name="test_remove_dirty_chars_duplicate_chars_in_first" time="0.001" /><testcase classname="test_solution" name="test_remove_dirty_chars_duplicate_chars_in_second" time="0.001" /><testcase classname="test_solution" name="test_remove_dirty_chars_special_characters" time="0.003"><failure message="AssertionError: assert 'abc#' == 'abc'&#10;  - abc&#10;  + abc#&#10;  ?    +">def test_remove_dirty_chars_special_characters():
+&gt;       assert remove_dirty_chars("a!b@c#", "!@") == 'abc'
+E       AssertionError: assert 'abc#' == 'abc'
+E         - abc
+E         + abc#
+E         ?    +
+
+test_solution.py:28: AssertionError</failure></testcase><testcase classname="test_solution" name="test_remove_dirty_chars_spaces" time="0.001" /></testsuite></testsuites>

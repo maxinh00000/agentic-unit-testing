@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="12" time="0.113" timestamp="2026-09-29T14:48:54.281710" hostname="Rickputer"><testcase classname="test_solution" name="test_single_lowercase_word" time="0.001"><failure message="AssertionError: assert False == True&#10; +  where False = text_lowercase_underscore('hello')">def test_single_lowercase_word():
+&gt;       assert text_lowercase_underscore("hello") == True
+E       AssertionError: assert False == True
+E        +  where False = text_lowercase_underscore('hello')
+
+test_solution.py:4: AssertionError</failure></testcase><testcase classname="test_solution" name="test_multiple_words_with_underscores" time="0.001" /><testcase classname="test_solution" name="test_multiple_underscores" time="0.001"><failure message="AssertionError: assert False == True&#10; +  where False = text_lowercase_underscore('a_b_c')">def test_multiple_underscores():
+&gt;       assert text_lowercase_underscore("a_b_c") == True
+E       AssertionError: assert False == True
+E        +  where False = text_lowercase_underscore('a_b_c')
+
+test_solution.py:10: AssertionError</failure></testcase><testcase classname="test_solution" name="test_uppercase_letter_returns_false" time="0.001" /><testcase classname="test_solution" name="test_digit_returns_false" time="0.001" /><testcase classname="test_solution" name="test_special_char_returns_false" time="0.000" /><testcase classname="test_solution" name="test_empty_string_returns_false" time="0.000" /><testcase classname="test_solution" name="test_leading_underscore_returns_false" time="0.000" /><testcase classname="test_solution" name="test_trailing_underscore_returns_false" time="0.001" /><testcase classname="test_solution" name="test_double_underscore_returns_false" time="0.000" /><testcase classname="test_solution" name="test_mixed_case_and_underscore_returns_false" time="0.000" /><testcase classname="test_solution" name="test_specification_example" time="0.000" /></testsuite></testsuites>

@@ -1,0 +1,38 @@
+{
+  "task_id": 14,
+  "function": "find_Volume",
+  "prompt": "Write a python function to find the volume of a triangular prism.",
+  "code_attempts": 1,
+  "code_structural_problem": null,
+  "reference_passed": 3,
+  "reference_total": 3,
+  "code_correct": true,
+  "iterations_run": 2,
+  "final_iteration": 2,
+  "tests_total": 10,
+  "tests_passed": 10,
+  "tests_failed": 0,
+  "tests_errors": 0,
+  "statement_pct": 100.0,
+  "branch_pct": 100.0,
+  "statements": 2,
+  "branches": 0,
+  "criterion_pct": 100.0,
+  "target_met": true,
+  "verdict": "PASS",
+  "verdict_reason": "all 10 tests passed, branch coverage 100% (target 100%)",
+  "triage": [],
+  "coverage_by_iteration": [
+    100.0,
+    100.0
+  ],
+  "verdict_by_iteration": [
+    "TEST_BUG",
+    "PASS"
+  ],
+  "unusable_test_replies": 0,
+  "oracle_valid": 10,
+  "oracle_total": 10,
+  "real_bug_found": false,
+  "seconds": 104.7
+}
